@@ -22,7 +22,7 @@ function setup()
 	//Creates ant at the center of the canvas
 	ant  = new Complex(floor(w/2), floor(h/2));
 
-	//Sets the direction of ant to leftwards
+	//Sets the direction of ant to downwards
 	dir = new Complex(0, 1);
 }
 
@@ -73,14 +73,6 @@ function draw() {
 		if(stepCounter > 12000) {
 			noLoop();
 		}
-
-
-		
-
-
-		
-
-	
 
 }
 
